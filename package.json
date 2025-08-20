@@ -1,0 +1,33 @@
+{
+  "name": "sendemailapi",
+  "version": "1.0.0",
+  "description": "API que ayuda a enviar email directamente al email configurado",
+  "keywords": [
+    "email",
+    "send",
+    "express",
+    "api",
+    "nodemailer",
+    "gmail"
+  ],
+  "homepage": "https://github.com/MiguelGarzon11/SendEmailAPI#readme",
+  "bugs": {
+    "url": "https://github.com/MiguelGarzon11/SendEmailAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelGarzon11/SendEmailAPI.git"
+  },
+  "license": "ISC",
+  "author": "Miguel Ángel Garzón Becerra",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "5.1.0",
+    "nodemailer": "^7.0.5"
+  }
+}
