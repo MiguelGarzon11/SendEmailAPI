@@ -26,13 +26,13 @@ app.post("/contactme", async (req, res) => {
             from: email,
             to: process.env.myEMAIL,
             subject: subject,
-            text: `Correo del usuario: ${email}\n\nMensaje:\n${message}`
+            text: message
         });
 
         res.json({ success: true, message: "Correo enviado con éxito" });
     } catch (error) {
         console.error(error);
-        res.status(500).json({ error: "Error enviando correo" });
+        res.status(500).json({ message: "Error enviando correo" });
     }
 });
 
